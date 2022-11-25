@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    
+    background-color: #E2AFD5;
+}
+
+h1{
+    color: #810568;
+    text-align: center;
+    font-size: 3em;
+    padding-bottom: 2.5%;
+    padding-top: 2.5%;
+}
+
+h2{
+    color: #960096;
+    text-align: center;
+}
+
+div{
+    display: flex;
+    justify-content: center;
+    padding-top: 3.5%;
+    padding-bottom: 5%;
+}
+
+img{
+    width: 400px;
+    height: 400px;
+    animation: animacaoCoracaoBatendo 1s linear infinite;  
+}
+
+@keyframes animacaoCoracaoBatendo {
+    0% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0.3;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
